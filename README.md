@@ -7,9 +7,30 @@
 > IngredientList.vue is a component that displays a list of ingredients for a meal.
 > The code uses Vue.js single-file components, which contain the template, script, and style sections in a single file. The template section contains the HTML markup, the script section contains the JavaScript code, and the style section contains the CSS code.
 
-## Folder Structure
+# Folder Structure
 
-## Included Library
+The project follows a modular folder structure where each module is self-contained and has its own set of components, views, and state management. This makes it easy to manage and maintain the codebase. The main folders are:
+
+- assets: This folder contains all the static assets like images, fonts, and stylesheets.
+- components: This folder contains all the reusable components used throughout the application.
+- router: This folder contains the Vue Router configuration.
+- store: This folder contains the Vuex store for managing the application state.
+- views: This folder contains all the page-level components.
+
+# Included Library
+
+The project uses the following libraries and frameworks:
+
+- Vue.js: A progressive JavaScript framework for building user interfaces.
+- Vuex: A state management library for Vue.js applications.
+- Vue Router: A routing library for Vue.js applications.
+- Axios: A promise-based HTTP client for making API requests.
+- vue-fontawesome: A Vue.js component for FontAwesome icons.
+
+# Handling of application state:
+
+The project uses Vuex for managing the application state. The state is divided into modules, with each module containing its own state, mutations, actions, and getters. This makes it easy to manage and maintain the state of the application as it grows. The state is also separated by feature to maintain a clear separation of concerns.
+Overall, the architectural decisions taken in this project help to maintain a clean and organized codebase, making it easy to manage and maintain the application as it grows.
 
 # How to Start the Application
 
